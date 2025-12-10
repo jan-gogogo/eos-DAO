@@ -131,5 +131,12 @@ eosio-cpp -I include src/voting.cpp -o voting.wasm
 
 所有插件功能都可通过投票机制决定是否启用，确保系统的去中心化和社区自治。
 
+## 安装部署
+> 首先至少需要准备好四个EOS账号：用于部署guide、organization、token、voting。
+
+*	首先部署向导合约`guide`，详情查看[guide合约模板介绍](https://github.com/jan-gogogo/eos-DAO/tree/main/guide)
+* 部署`organization`，	详情查看[organization合约模板介绍](https://github.com/jan-gogogo/eos-DAO/tree/main/organization) 安装部署部分
+* 安装插件,详情查看[plugin合约介绍](https://github.com/jan-gogogo/eos-DAO/tree/main/plugins)
+
 ## 📄 提示
 该项目只是一个DAO雏形尚未经过线上验证，请勿直接用于生产。
