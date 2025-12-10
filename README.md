@@ -119,9 +119,6 @@ cd plugins/voting
 eosio-cpp -I include src/voting.cpp -o voting.wasm
 ```
 
-### 部署合约
-
-参考 `guide/README.md` 中的初始化数据配置说明。
 
 ## 📝 治理机制
 
@@ -134,11 +131,5 @@ eosio-cpp -I include src/voting.cpp -o voting.wasm
 
 所有插件功能都可通过投票机制决定是否启用，确保系统的去中心化和社区自治。
 
-## 📄 许可证
-
-[请添加许可证信息]
-
-## 🤝 贡献
-
-欢迎提交 Issue 和 Pull Request！
-# eos-DAO
+## 📄 提示
+该项目只是一个DAO雏形尚未经过线上验证，请勿直接用于生产。
